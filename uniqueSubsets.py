@@ -15,9 +15,10 @@ def subsets(seq):
     return results
 
 if __name__ == '__main__':
-    seq = 'abbcdefghijklmnopqrstuvw'
-    print len(subsets(seq))
-
-    # seq = [1, 2, 2]
-    # for i in subsets(seq):
-    #     print(i)
+    seq = 'abbc'
+    for i in subsets(seq):
+        print(i)
+        
+    seq = [1, 2, 2]
+    for i in subsets(seq):
+        print(i)

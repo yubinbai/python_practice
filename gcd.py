@@ -25,4 +25,5 @@ def extended_gcd(a, b):
         y, lasty = lasty - q * y, y
     return a, lastx, lasty
 
-print extended_gcd(3, 5)
+if __name__ == '__main__':
+    print extended_gcd(3, 5)
