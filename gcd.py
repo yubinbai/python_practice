@@ -26,4 +26,4 @@ def extended_gcd(a, b):
     return a, lastx, lasty
 
 if __name__ == '__main__':
-    print extended_gcd(3, 5)
+    print extended_gcd(6, 4)

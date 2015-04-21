@@ -9,6 +9,7 @@ def shuffleArray(cards):
         j = random.randrange(i + 1, len(cards))
         cards[i], cards[j] = cards[j], cards[i]
 
-cards = list(range(1, 11))
-shuffleArray(cards)
-print(cards)
+if __name__ == '__main__':
+	cards = list(range(1, 11))
+	shuffleArray(cards)
+	print(cards)
